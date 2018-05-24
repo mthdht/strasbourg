@@ -16,6 +16,13 @@
 /* change le style pour l'icon 'home' du menu principal */
 .main-navigation li:first-child::before {
     float: left;
-    margin-top: 25px;
+    margin-top: 15px;
     font-size: large;
+}
+
+
+@media (min-width: 768px) {
+    .main-navigation li:first-child::before {
+        margin-top: 25px;
+    }
 }
