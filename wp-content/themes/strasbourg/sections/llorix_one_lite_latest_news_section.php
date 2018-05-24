@@ -72,7 +72,7 @@ $the_query->the_post();
 
 											<div itemscope itemprop="blogPosts" itemtype="http://schema.org/BlogPosting" id="post-<?php the_ID(); ?>" class="timeline-box-wrap" title="<?php /* translators: %s is the title */ printf( esc_html__( 'Latest News: %s', 'llorix-one-lite' ), get_the_title() ); ?>">
 											<div datetime="<?php the_time( 'Y-m-d\TH:i:sP' ); ?>" title="<?php the_time( _x( 'l, F j, Y, g:i a', 'post time format', 'llorix-one-lite' ) ); ?>" class="entry-published date small-text strong">
-											<?php echo get_the_date( 'M, j' ); ?>
+											<?php echo get_the_date( 'j M' ); ?>
 											</div>
 											<div itemscope itemprop="image" class="icon-container white-text">
 											<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
@@ -99,7 +99,7 @@ $the_query->the_post();
 												<time itemprop="datePublished" datetime="<?php the_time( 'Y-m-d\TH:i:sP' ); ?>" title="<?php the_time( _x( 'l, F j, Y, g:i a', 'post time format', 'llorix-one-lite' ) ); ?>" class="entry-date entry-published updated"><?php echo the_time( get_option( 'date_format' ) ); ?></time>
 												</a>
 												</span>
-												<span> <?php esc_html_e( 'by', 'llorix-one-lite' ); ?> </span>
+												<span> <?php esc_html_e( 'par', 'llorix-one-lite' ); ?> </span>
 												<span itemscope itemprop="author" itemtype="http://schema.org/Person" class="author-link">
 												<span  itemprop="name" class="entry-author author vcard">
 												<a itemprop="url" class="url fn n" href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>" rel="author"><?php the_author(); ?> </a>
@@ -109,7 +109,7 @@ $the_query->the_post();
 												</header>
 												<div itemprop="description" class="entry-content entry-summary">
 												<?php the_excerpt(); ?>
-												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="read-more"><?php /* translators: %s is the title */ printf( esc_html__( 'Read more %s', 'llorix-one-lite' ), '<span class="screen-reader-text">  ' . get_the_title() . '</span>' ); ?></a>
+												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="read-more"><?php /* translators: %s is the title */ printf( esc_html__( 'Voir plus %s', 'llorix-one-lite' ), '<span class="screen-reader-text">  ' . get_the_title() . '</span>' ); ?></a>
 												</div>
 												</div>
 												</div>
