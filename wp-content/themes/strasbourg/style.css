@@ -12,3 +12,10 @@
 */
 
 @import "../llorix-one-lite/style.css";
+
+/* change le style pour l'icon 'home' du menu principal */
+.main-navigation li:first-child::before {
+    float: left;
+    margin-top: 25px;
+    font-size: large;
+}
