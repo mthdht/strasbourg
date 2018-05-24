@@ -20,9 +20,13 @@
     font-size: large;
 }
 
-
 @media (min-width: 768px) {
     .main-navigation li:first-child::before {
         margin-top: 25px;
     }
+}
+
+/* change style for last post section */
+.timeline-box-wrap .icon-container {
+    margin-top: 0;
 }
