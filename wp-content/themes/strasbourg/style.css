@@ -13,19 +13,6 @@
 
 @import "../llorix-one-lite/style.css";
 
-/* change le style pour l'icon 'home' du menu principal */
-.main-navigation li:first-child::before {
-    float: left;
-    margin-top: 15px;
-    font-size: large;
-}
-
-@media (min-width: 768px) {
-    .main-navigation li:first-child::before {
-        margin-top: 25px;
-    }
-}
-
 /* change style for last post section */
 .timeline-box-wrap .icon-container {
     margin-top: 0;
