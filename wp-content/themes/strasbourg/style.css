@@ -17,3 +17,7 @@
 .timeline-box-wrap .icon-container {
     margin-top: 0;
 }
+
+.nf-field-description {
+    order: 20;!important
+}
