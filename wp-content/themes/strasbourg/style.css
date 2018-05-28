@@ -21,3 +21,7 @@
 .nf-field-description {
     order: 20;!important
 }
+
+.css-events-list table.events-table td {
+    padding: 8px;
+}
