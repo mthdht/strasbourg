@@ -81,7 +81,7 @@ function llorix_one_lite_entry_footer() {
 			$categories_list = get_the_category_list( esc_html__( ', ', 'llorix-one-lite' ) );
 			if ( $categories_list && llorix_one_lite_categorized_blog() ) {
 				/* translators: %1$s is the categories list */
-				printf( '<span class="cat-links"><i class="fa fa-folder-open" aria-hidden="true"></i>' . esc_html__( 'Posted in %1$s', 'llorix-one-lite' ) . '</span>', $categories_list );
+				printf( '<span class="cat-links"><i class="fa fa-folder-open" aria-hidden="true"></i>' . esc_html__( 'Posté dans %1$s', 'llorix-one-lite' ) . '</span>', $categories_list );
 			}
 
 			/* translators: used between list items, there is a space after the comma */
