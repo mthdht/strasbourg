@@ -48,7 +48,7 @@
 				<?php llorix_one_lite_after_author_in_entry_meta_trigger(); ?>
 				<span class="posted-in entry-terms-categories" itemprop="articleSection">
 					<i class="fa fa-folder" aria-hidden="true"></i>
-					<?php _e( 'Posté dans', 'llorix-one-lite' ); ?>
+					<?php _e( 'Postée dans', 'llorix-one-lite' ); ?>
 					<?php
 						/* translators: used between list items, there is a space after the comma */
 						$categories_list = get_the_category_list( esc_html__( ', ', 'llorix-one-lite' ) );
