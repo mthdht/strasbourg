@@ -18,10 +18,23 @@
     margin-top: 0;
 }
 
+/*change order of date description form */
 .nf-field-description {
     order: 20;!important
 }
 
+/* change padding of table cells */
 .css-events-list table.events-table td {
     padding: 8px;
+}
+
+@media (min-width: 768px) {
+    .astm-search-menu form {
+        background-color: rgba(0,0,0,.5);
+
+    }
+
+    .astm-search-menu form * {
+        margin: 10px;
+    }
 }

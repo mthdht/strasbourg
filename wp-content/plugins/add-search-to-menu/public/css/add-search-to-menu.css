@@ -141,11 +141,6 @@
 }
 
 @media screen and ( max-width: 910px ) {
-	.astm-search-menu form {
-		left: 0;
-		min-width: 50%;
-		right: auto;
-	}
 
 	.astm-search-menu.full-width-menu.active-search {
 		position: relative;
@@ -153,5 +148,13 @@
 
 	.astm-search-menu-wrapper {
 		display: block;
+	}
+}
+
+@media screen and ( max-width: 767px ) {
+	.astm-search-menu form {
+		left: 0;
+		min-width: 50%;
+		right: auto;
 	}
 }
