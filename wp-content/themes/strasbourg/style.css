@@ -37,4 +37,28 @@
     .astm-search-menu form * {
         margin: 10px;
     }
+
+    #sidebar-secondary {
+        display: none;
+    }
+
+    #primary {
+        width: 100%;
+    }
+    #primary #main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .post-list article {
+        width: 49%;
+    }
+
+    .post-list article:nth-child(2n) {
+        margin-right: 10px;
+    }
 }
